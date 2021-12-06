@@ -1,0 +1,43 @@
+
+.catName{
+    font-weight: 700;
+    font-size: 20px;
+}
+.mainIMageContainer{
+    padding-top: 100%;
+  width: 100% !important;
+  position: relative !important;
+}
+.productImg{
+  position: absolute !important;
+  top: 0 !important;
+  left: 0 !important;
+  bottom: 0 !important;
+  right: 0 !important;
+
+  
+}
+.pTitle:hover{
+    text-decoration: none !important;
+}
+.slick-arrow{
+    height: 40px;
+    width: 20px;
+    
+    background-color: rgb(255, 0, 0);
+}
+.slick-arrow:hover, .slick-arrow:active{
+    background-color: rgb(255, 0, 0);
+}
+ /* slick-prev{
+    margin-right: 10px !important;
+} */
+.slick-next:active{
+    color: green;
+}
+a:hover{
+    text-decoration: none !important;
+}
+.pTitle:hover{
+    text-decoration: none !important;
+}

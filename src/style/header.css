@@ -1,0 +1,105 @@
+
+.fullDeviceWidth{
+    width: 100%;
+    box-shadow: 1px 1px 1px rgb(194, 194, 194);
+}
+.fullWidth{
+    width: 100%;
+    /* box-shadow: 1px 1px 1px rgb(194, 194, 194); */
+}
+.burgerIcon{
+    display: none;
+}
+.formAction{
+    margin-top: -5px;
+}
+.userActions{
+    width: 70px;
+}
+.searchAction{
+    width: fit-content;
+    width: -moz-fit-content;
+    margin-top: -8px;
+    margin-left: 10px;
+}
+.serchBtn{
+    border: none;
+    color: black;
+    background-color: white;
+}
+.bag{
+    position: relative;
+}
+.cartItem{
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: rgb(247, 238, 238);
+    top: -5px;
+    right: 0px;
+   
+}
+.cartNum{
+    color: red;
+    margin-left: 5px;
+    margin-top: -20px;
+    font-size: 12px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    /* .mainCategoryy{
+        width: 100%;
+    } */
+    .brandNam{
+        display: none;
+    }
+    .burgerIcon{
+        display: inline;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}
+.brandNam{
+    
+    color: black;
+}
+.top{
+    background-color: #F3F5F7;
+}
+
+
+.searchField{
+    width: 200px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid gray;
+    padding:5px;
+    
+}
+.searchField:focus{
+    box-shadow: 1px 2px 2px  gray;
+}
+.brandName{
+    font-weight: 700;
+    font-size: 22px;
+    cursor: pointer;
+}
+.slick-arrow{
+    background-color:white;
+}
+
+.catNav:hover{
+    text-decoration: none !important;
+}
